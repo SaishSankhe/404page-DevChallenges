@@ -1,3 +1,43 @@
 body {
-	margin: 10px;
+	margin: 20px;
+}
+
+nav {
+	font-family: 'Inconsolata', monospace;
+	font-size: 24px;
+	margin: 20px 0px 20px 47px;
+}
+
+footer {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 17.07px;
+	font-weight: 500;
+	color: #bdbdbd;
+	position: absolute;
+	bottom: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.content {
+	display: flex;
+	margin: 5% 0;
+}
+
+.image {
+	width: 50%;
+	text-align: center;
+}
+
+.image > img {
+	width: 540px;
+}
+
+.text {
+	width: 50%;
+	text-align: center;
 }
