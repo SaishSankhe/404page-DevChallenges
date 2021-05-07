@@ -6,6 +6,7 @@ nav {
 	font-family: 'Inconsolata', monospace;
 	font-size: 24px;
 	margin: 20px 0px 20px 47px;
+	color: #333333;
 }
 
 footer {
@@ -14,7 +15,6 @@ footer {
 	line-height: 17.07px;
 	font-weight: 500;
 	color: #bdbdbd;
-	position: absolute;
 	bottom: 24px;
 	margin-left: auto;
 	margin-right: auto;
@@ -26,10 +26,11 @@ footer {
 .content {
 	display: flex;
 	margin: 5% 0;
+	flex-wrap: wrap;
 }
 
 .image {
-	width: 50%;
+	flex: 1 1 50%;
 	text-align: center;
 }
 
@@ -38,6 +39,42 @@ footer {
 }
 
 .text {
-	width: 50%;
-	text-align: center;
+	flex: 1 1 50%;
+	text-align: left;
+	font-family: 'Space Mono', monospace;
+}
+
+.heading {
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 95px;
+	color: #333333;
+	width: 585px;
+}
+
+.paragraph {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 30px 0 40px;
+	width: 380px;
+	color: #333333;
+}
+
+.cta-btn {
+	font-family: 'Space Mono', monospace;
+	width: 216px;
+	height: 55px;
+	background-color: #333333;
+	color: #fff;
+	border: none;
+	font-size: 14px;
+	font-weight: 700;
+	transition: all 200ms ease-in-out;
+}
+
+.cta-btn:hover {
+	background-color: #fff;
+	color: #333;
+	border: 2.5px solid #333333;
 }
