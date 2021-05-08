@@ -31,6 +31,15 @@ footer {
 	margin-bottom: 10px;
 }
 
+footer > a {
+	color: #bdbdbd;
+	text-decoration: underline;
+}
+
+.name-link {
+	font-weight: bold;
+}
+
 .content {
 	display: flex;
 	margin: 5% 0;
