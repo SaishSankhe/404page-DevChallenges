@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot]('/img/screenshot.png')
+![screenshot]('./img/screenshot.png')
 
 This is a simple 404 Not Found page, fully responsive.
 
